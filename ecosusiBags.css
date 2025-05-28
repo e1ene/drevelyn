@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: #f3e8ff;
+    color: #5e4b8b;
+    line-height: 1.6;
+  }
+
+article {
+  background-color: #f3e8ff;
+  font-family: 'Georgia', serif;
+  color: #3d2a4d;
+  line-height: 1.7;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+ header {
+    background: #d9c9f2;
+    padding: 1rem 2rem;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  header h1 {
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: 2.5rem;
+    color: #7a5ca0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 15px;
+    background:  #d9c9f2;
+    font-weight: bold;
+    z-index: 1;
+    position: relative;
+  }
+  
+  nav a {
+    color: #703a9b;
+    text-decoration: none;
+    font-size: 1rem;
+    position: relative;
+  }
+  
+  nav a::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: #b470f0;
+    transition: 0.3s ease;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+  }
+  
+  nav a:hover::after {
+    width: 100%;
+  }
+
+/* Headers */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #632a99;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  color: #5d3a6f;
+}
+
+/* Paragraphs */
+p {
+  margin: 1rem 0;
+  font-size: 1.05rem;
+}
+
+strong {
+  color: #703a9b;
+}
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 14px;
+  margin: 1rem 0;
+  box-shadow: 0 6px 18px rgba(99, 42, 153, 0.1);
+}
+
+/* Links */
+a {
+  color: #703a9b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #b470f0;
+  text-decoration: underline;
+}
+
+/* Horizontal Rule */
+hr {
+  margin: 2rem 0;
+  border: none;
+  height: 2px;
+  background-color: #c3a1e6;
+}
+
+/* Disclaimer */
+.disclaimer {
+  font-style: italic;
+  font-size: 0.9rem;
+  background-color: #f0dbff;
+  border-left: 4px solid #703a9b;
+  padding: 1rem;
+  border-radius: 10px;
+  color: #5b3a70;
+}
+
